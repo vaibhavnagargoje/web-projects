@@ -1,55 +1,64 @@
-*{
+* {
     margin: 0;
-    padding:0;
-    background-color: rgb(240, 236, 236);
+    padding: 0;
 }
 
-.container{
-    position: absolute;
-    top:20%;
-    left:40%;
-    background-color: rgb(214, 212, 212);
-    width:20vw;
-    height:50vh;
-    border:1px black solid;
-    border-radius: 10px;
-    display:inline-block;
+body {
+
+    background-color: gray;
 }
 
+.card {
 
-.container img{
-    width: 95%;
-    border-radius: 10px;
-    justify-content: center;
-    /* align-items: center; */
-    margin:4px;    
+    width: 244px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
 }
+
+.image {
+    border-radius: 15px;
+    padding: 9px;
+}
+
 .button{
-background-color:rgb(214, 212, 212) ;}
-span{
-    border-radius: 30px;
-    border:0.3px solid black;
-    display: inline-block;
-    padding: 5px;
-    margin-left: 10px;
-
-}
-.button.span{
-    width: 30%;
-    height: 200px;
-   
-}
-button{
-    text-decoration: none;
-    border: none;
+    padding:0px 10px;
 }
 
-.container.button{
+.button span {
     
-    justify-content: center;
-  
+    border: 0.4px solid;
+    border-radius: 10px;
+    padding:0 5px;
+
+
 }
-h2{
-    font-size: 20px;
-    margin-left: 5px;
+.read-more{
+    text-align: center;
+    
 }
+.read-more>button{
+    background-color: rgb(187, 187, 252);
+    padding:3px;
+    border-radius: 10px;
+    color: white;
+    border:none;
+    padding:5px 30px;
+    cursor: pointer;
+}
+
+.about {
+    padding: 10px;
+    color:rgb(45, 45, 45);
+
+}
+
+.read-more>button:hover{
+    background-color: rgb(110, 110, 230);
+
+}
+.read-more>button:active{
+    background-color: blue;
+
+}
+
